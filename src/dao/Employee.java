@@ -6,6 +6,7 @@ public class Employee {
     private String ssn;
     private double salary;
 
+//    Constructor
     public Employee(){
         super();
     }
@@ -19,6 +20,7 @@ public class Employee {
 
     }
 
+//    getter methods
     protected String getEmployeeDetails(){
         return " "+empid+" "+name + " "+ssn+" "+salary;
     }
